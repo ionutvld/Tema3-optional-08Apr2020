@@ -1,0 +1,116 @@
+:root {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+}
+
+header :first-child {
+    font-size: 55px;
+    margin-left: 120px;
+    color: rgb(51, 51, 51);
+}
+
+header :last-child {
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(153, 153, 153);
+}
+
+.input-class {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    width: 700px;
+    height: 260px;
+    background-color: rgb(245, 245, 245);
+    font-weight: 900;
+    border: 1px rgb(228, 228, 228) solid;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 15px;
+}
+
+form {
+    margin: 10px;
+}
+
+input {
+    border: 1px rgb(214, 214, 214) solid;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 250px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: rgb(153, 153, 153);
+}
+
+textarea {
+    border: 1px rgb(214, 214, 214) solid;
+    border-radius: 5px;
+    color: rgb(153, 153, 153);
+    width: 360px;
+    height: 165px;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    /* position: absolute;
+    top: 305px;
+    left: 725px; */
+    background-color: rgb(66, 139, 202);
+    color: white;
+    font-size: 15px;
+    margin-left: -130px;
+    margin-top: 220px;
+}
+
+footer {
+    padding-top: 55px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+hr {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(245, 245, 245)
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+footer li a {
+    color: rgb(66, 139, 202);
+    text-decoration: none;
+    font-size: 15px;
+}
